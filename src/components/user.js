@@ -22,10 +22,12 @@ export default function User() {
               height="35"
             />
                 </div>
-                <div className='col-md-6'>
-<h2>{user.name}</h2>
+                <div className='col-md-9'>
+<h2 style={{
+    color:"darkseagreen"
+}}>{user.name}</h2>
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-1'>
                 <LogoutButton/>
                 </div>
             </div>
